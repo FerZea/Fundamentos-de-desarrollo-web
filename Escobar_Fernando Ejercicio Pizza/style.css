@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Fondo de toda la página */
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+
+/* Tarjeta */
+.card {
+    width: 380px;
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* Imagen superior */
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* Contenido */
+.text-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.text-container h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.text-container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Línea divisoria */
+
+.text-container hr {
+    border: dotted grey 1px;
+    
+}
+
+
+/* Título */
+.text-container h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+/* Texto */
+.text-container p {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.4;
+}
+/* Botón */
+.text-container button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.text-container button:hover {
+    background-color: darkred;
+}
