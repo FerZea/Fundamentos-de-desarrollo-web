@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+/* Tarjeta */
+.card {
+    width: 800px;
+    display: flex;
+}
+
+.text-container {
+    width: 60%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-container h2 {
+    font-size: 32px;          /* más grande */
+    font-weight: bold;
+    line-height: 1.2;         /* controla el salto */
+    max-width: 200px;         /* fuerza el quiebre */
+    margin: 0 auto 15px;
+}
+
+
+.text-container .horarios{
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.text-container li {
+    margin: 12px 0;
+}
+
+.text-container button {
+    margin-top: 10px;
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    width: auto;          /* clave */
+    align-self: center;   /* centra sin estirarse */
+}
+
+
+.image-container {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
